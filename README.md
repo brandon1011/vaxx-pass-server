@@ -1,1 +1,1 @@
-# vaxx-paxx-server
+# Vaxx Pass Server
