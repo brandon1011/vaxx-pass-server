@@ -7,5 +7,6 @@ const checkinSchema = new Schema({
     datetime: Date,
     checkin_id: String,
     visitor_id: String,
-    verifier_id: String
+    verifier_id: String,
+    location: [Number]
 });
