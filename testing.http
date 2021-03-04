@@ -1,0 +1,30 @@
+# Creating a new user
+
+# POST http://localhost:8080/api/users
+# Content-Type: application/json
+
+# {
+#     "first_name": "Brandon",
+#     "last_name": "Cadaoas",
+#     "user_id": "123456789",
+#     "address": {
+#         "building": "300",
+#         "coord": [12.0, 12.0],
+#         "street": "Finch Ave E",
+#         "postal_code": "ABC 456"
+#     }
+# }
+
+# Reading a user by id
+# GET http://localhost:8080/api/users/123456789
+
+# Update a user by id
+# PUT http://localhost:8080/api/users/123456789
+# Content-Type: application/json
+
+# {
+#     "last_name": "Burger"
+# }
+
+# Delete user by id
+# DELETE http://localhost:8080/api/users/123456789
