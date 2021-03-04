@@ -11,7 +11,8 @@ const userSchema = new Schema({
         street: String,
         postal_code: String
     },
-    display_photo: String
+    display_photo: String,
+    vaccine_verified: Boolean
 });
 
 module.exports = class UserDB{
