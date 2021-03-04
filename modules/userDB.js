@@ -10,7 +10,8 @@ const userSchema = new Schema({
         coord: [Number],
         street: String,
         postal_code: String
-    }
+    },
+    display_photo: String
 });
 
 module.exports = class UserDB{
