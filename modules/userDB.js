@@ -38,16 +38,6 @@ module.exports = class UserDB{
         return `new user: ${newUser.user_id} (${newUser.first_name} ${newUser.last_name}) successfully added`;
     }
 
-    // getAllRestaurants(page, perPage, borough){
-    //     let findBy = borough ? { borough } : {};
-
-    //     if(+page && +perPage){
-    //         return this.Restaurant.find(findBy).sort({restaurant_id: +1}).skip(page * +perPage).limit(+perPage).exec();
-    //     }
-
-    //     return Promise.reject(new Error('page and perPage query parameters must be present'));
-    // }
-
     getUserById(id){
         return this.User.findOne({user_id: id}).exec();
     }

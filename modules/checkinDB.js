@@ -5,6 +5,7 @@ const Schema = mongoose.Schema;
 
 const checkinSchema = new Schema({
     datetime: Date,
-    visitor: User,
-    verifier: User
+    checkin_id: String,
+    visitor_id: String,
+    verifier_id: String
 });

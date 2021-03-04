@@ -28,3 +28,29 @@
 
 # Delete user by id
 # DELETE http://localhost:8080/api/users/123456789
+
+# Creating a new verifier
+
+# POST http://localhost:8080/api/verifiers
+# Content-Type: application/json
+
+# {
+#     "first_name": "Security",
+#     "last_name": "Guard",
+#     "verifier_id": "987654321",
+#     "location": [15.0, 16.8]
+# }
+
+# Reading a verifier by id
+# GET http://localhost:8080/api/verifiers/987654321
+
+# Update a user by id
+# PUT http://localhost:8080/api/verifiers/987654321
+# Content-Type: application/json
+
+# {
+#     "last_name": "Burger"
+# }
+
+# Delete user by id
+DELETE http://localhost:8080/api/verifiers/987654321

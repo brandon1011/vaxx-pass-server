@@ -1,5 +1,5 @@
 {
-  "name": "vaxx-paxx-server",
+  "name": "vaxx-pass-server",
   "version": "1.0.0",
   "description": "Server for Vaxx Pass application",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandon1011/vaxx-paxx-server.git"
+    "url": "git+https://github.com/brandon1011/vaxx-pass-server.git"
   },
   "author": "Brandon Cadaoas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brandon1011/vaxx-paxx-server/issues"
+    "url": "https://github.com/brandon1011/vaxx-pass-server/issues"
   },
-  "homepage": "https://github.com/brandon1011/vaxx-paxx-server#readme",
+  "homepage": "https://github.com/brandon1011/vaxx-pass-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
